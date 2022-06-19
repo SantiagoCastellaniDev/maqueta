@@ -1,0 +1,96 @@
+/*---PROYECTOS---*/
+
+/*---recuadro---*/
+#proyectos {
+    margin: 40px;
+}
+
+.seccion {
+    align-content: center;
+    text-align:center;
+    background:black;
+    border-radius: 10px;
+    padding:50px 15px;
+    border-bottom:1px solid red;
+    border-left:1px solid orange;
+    border-top:1px solid yellow;
+    border-right:1px solid green;
+}
+
+/*-------TIULO DE SECCION--------*/
+
+.titular {color: green; 
+    margin-bottom:40px;
+    font: size 2em;
+    font-weight:500; 
+    font-size:2em;
+    font-weight:300;
+    margin:0 0 30px 30px;
+    position:relative;
+    display:inline-block
+}
+
+.titular:after {
+    position:absolute;
+    content:'';
+    top:100%;
+    height:1px;
+    width:50px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    background:yellow
+}
+
+h2, fa-icon {
+    display: inline;
+}
+
+/*---------Boton AGREGAR PROYECTO-------*/
+fa-icon {
+    float:right;
+    position: relative;
+    bottom: 20px;
+    margin: 25px;
+    right: 15px;
+    font-size: 20px;
+    color: orangered;
+}
+
+/*---------CONTENEDOR DE PROYECTOS-------*/
+
+.project-info h3{font-size:1.5em;font-weight:300;color:black;margin:0 0 15px 0}
+.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
+
+.project-image{float:left}
+
+.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
+
+
+
+.project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
+
+.no-image .project-info{position:relative;margin:0;padding:30px 15px;transform:none}
+
+#more-projects{display:none}
+
+.shadow-large{box-shadow:0 3px 6px rgba(0,0,0,0.08),0 3px 6px rgba(0,0,0,0.15)}
+
+
+
+.background-alt{background:black}
+
+@media only screen and (max-width: 768px){.project-image{display:none}.project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}footer{text-align:center}}
+
+
+
+
+
+img {
+    position:relative;
+    right:12px;
+}
+
+.row {
+    margin: 10px;
+}

@@ -1,0 +1,124 @@
+.btn-sidebar {
+  position: absolute fixed;
+  top: 80px; 
+}
+
+.boton-sidebar {
+  background-color: yellow;
+  color: black;
+  margin-left: 25px;
+  height: 40px;
+  width:40px;
+  border-radius: 10px;
+}
+
+fa-icon {
+  height: 25px;
+}
+
+
+#barra-lateral {
+  background:url(../../../assets/images/estrellas2.jpg);
+  color: yellow;  
+}
+
+#offcanvasWithBothOptions {
+  height: max-content;
+  width: max-content;
+  top: 80px;
+  background-color: orange;
+  transition: transform 1000ms;
+  text-align: center;
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px;
+}
+
+.offcanvas-header {
+  background: url(../../../assets/images/nubes.jpg)
+}
+
+
+
+
+
+
+
+/*
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #sidebar {
+    position: fixed;
+    top: 50px;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -2px;
+    transition: all 600ms linear;
+  }
+  
+  #sidebar.active {
+    left: 0px;
+  }
+  
+  #sidebar ul li {
+    color: rgba(230, 230, 230, .9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    text-align: center;
+  }
+  
+  
+  .logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  #sidebar .btn-sidebar {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+  }
+  
+  #sidebar .btn-sidebar span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #000;
+  }
+  
+  #btn-home {
+    display: block; background: yellow; color:red; align-items: center; font-size: 25px}  
+
+    /*--------------------------------------------------------*/
+/*
+    #home {
+        width:100%;
+        position: absolute;
+        top:70px;
+      }
+ 
+      
+      
+      #secciones {position: absolute; background: yellow; border-radius: 10px; width:max-content; height:max-content; border: 3px solid green; margin-top: 5px; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; z-index:10}
+      
+      #secciones ul {display:inline-block;text-align:center; margin: auto; justify-content: center}
+      
+      #secciones ul li {display:inline-block; margin-top: 10px; margin-inline: 7px;}
+      
+      
+      #magia{z-index:10;animation-name:dropHeader;animation-iteration-count:1;animation-timing-function:ease;animation-duration:1s}
+         */

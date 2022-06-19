@@ -1,0 +1,138 @@
+/*------------BANNER-----------*/
+/*#banner {
+  width:100%; 
+}
+*/
+/*-------Datos de perfil--------*/
+/*
+#perfil {
+  background-color: black;
+  padding: 0;
+}
+
+#foto-perfil{
+  height: 150px;
+  border-radius: 100%;
+  bottom: 100%;
+  position: relative;
+  top:-75px;
+  left: 20px;
+  padding: 0;
+  margin:0;
+}
+
+/*------Boton de editar perfil------*/
+#editar-datos-perfil {
+  position: relative;
+  top: -15px;
+  left: 20px;
+  display:inline-block;
+  border: 2px solid yellow;
+  border-radius: 100%;
+  background-color: grey;
+}
+
+
+#datos-perfil {
+  align-items: center;
+  color: red;
+  justify-content: center;
+  align-content: center;  
+}
+/*
+.datos-perfil h3,h4,h6 {
+  color: white;
+  justify-content: center;  
+}
+
+
+
+#datos-perfil {
+  position: relative;
+  top: -75px;
+  padding:10px;
+}
+/*
+
+
+
+
+#editar-datos-perfil{
+  position: relative;
+  top: -25px;
+  left: 20px;
+  display:inline-block;
+}
+
+#datos-perfil {
+  position: relative;
+  top: -75px;
+  padding:20px;
+}*/
+
+#header {
+  display: flex;
+  justify-content: center;
+  height:100%;
+}
+.dos {
+  height: 800px;
+}
+
+.magico {
+  position:absolute;
+  z-index:10;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+}
+
+#lead-content{position:absolute;z-index:10;top:50%;left:50%;transform:translate(-50%, -50%);text-align:center}
+
+#lead-content h1,#lead-content h2{margin:0}
+
+#lead-content h1{color: yellow;font-weight:900;font-size:5em;text-transform:uppercase;letter-spacing:0.05em;line-height:0.9em; text-shadow: 3px 3px green}
+
+#lead-content h2{color: yellow; text-shadow: 3px 3px red;font-weight:500;font-size:2.25em;margin-bottom:15px}
+
+#lead-overlay{position:absolute;height:100%;width:100%;top:0;right:0;bottom:0;left:0;z-index:1}
+/*
+#lead-down{position:absolute;left:0;right:0;width:100%;text-align:center;z-index:10;bottom:15px;color: red}
+
+#lead-down span{cursor:pointer;display:block;margin:0 auto;width:35px;height:35px;border-radius:50%;border:3px solid orange;text-align:center}
+
+#lead-down span:hover{border:3px solid yellow}
+
+#lead-down i{animation:pulsate 1.5s ease;animation-iteration-count:infinite;padding-top:5px}*/
+/*
+@media only screen and (min-width: 992px) {
+  #lead{height:auto;min-height:auto;max-height:auto;padding:100px 15px}
+  #lead-content{position:relative;transform:none;left:auto;top:auto}
+  #lead-content h1{font-size:3em}
+  #lead-content h2{font-size:1.75em}
+  /*#about{text-align:center}#about p{text-align:left}
+}
+
+@media only screen and (max-width: 768px) {
+  header{position:fixed;display:none;z-index:999;animation:none;bottom:0;height:100%}
+  #mobile-menu-open,#mobile-menu-close{display:block}
+  #menu{height:100%;overflow-y:auto;box-shadow:none;border-radius:0;width:100%}
+  #menu li{display:block;margin-bottom:10px}
+  #lead-content h1{font-size:2em}
+  #lead-content h2{font-size:1.3em}
+  #lead-content a{padding:10px 20px}
+  #lead-down{display:none}
+  .education-block h3,.education-block span{float:none}.project-image{display:none}.project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}footer{text-align:center}.social{text-align:center}}
+
+@media only screen and (max-width: 480px) {
+  #lead-content h1{font-size:1.5em}
+  #lead-content h2{font-size:1em}
+  #lead-content a{font-size:0.9em;padding:5px 10px}
+}
+*/
+
+@media only screen and (max-width: 992px) {
+  #lead-content h1{font-size:3em}
+  #lead-content h2{font-size:1.75em}
+}

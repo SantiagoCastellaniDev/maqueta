@@ -1,0 +1,143 @@
+/*------BARRA DE NAVEGACION---------*/
+
+#navegacion {    
+    height: 60px;
+    display: flexbox;
+    align-items: center;
+    background: black;
+    color: white;
+    font-weight: 600;
+    align-content: center;
+}
+
+/*------LOGO Argentina Programa---------*/
+
+#logoargentina {
+  top: 15px;
+  height:40px;
+  width:100%;
+}
+
+.span1 {
+  position: absolute;
+  left: 75px;
+  top: 17px;
+}
+
+.span2 {
+  position: absolute;
+  left: 230px;
+  top: 17px;
+}
+
+/*------Redes y LOGIN--------*/
+
+ul li {
+  color:white;
+  justify-content: center;
+  margin-top: 20px;
+  margin-inline: 7px;
+}
+
+ul li a {
+  color:white;
+  font-size: 20px;
+}
+
+ul li a:hover {
+  color: yellow;
+}
+
+/*--------BOTON LOGIN-------*/
+
+.btn-login {
+  color: white;
+  background:green;
+  border-radius: 100%;
+}
+
+.btn-login:hover {
+  color: black;
+  background: yellow;
+}
+
+
+@media (max-width: 550px) {
+  .btn-login {background: orange}
+  .span2 {display:none}
+}
+
+@media (max-width: 450px) {
+  .btn-login {background: red}
+  .span1 {display:none}
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+/*--------------------------------------------------------------*/
+#home {
+  width:100%;
+  position: absolute;
+  top:70px;
+}
+#btn-home {
+  display: block; background: yellow; color:red; align-items: center; font-size: 25px; border-radius: 15px}
+
+
+#secciones {position: absolute; background: yellow; border-radius: 10px; width:max-content; height:max-content; border: 3px solid green; margin-top: 5px; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; z-index:10}
+
+#secciones ul {display:inline-block;text-align:center; margin: auto; justify-content: center}
+
+#secciones ul li {display:inline-block; margin-top: 10px; margin-inline: 7px;}
+
+
+#magia{z-index:10;animation-name:dropHeader;animation-iteration-count:1;animation-timing-function:ease;animation-duration:1s}
+
+
+/*
+
+#secciones ul li a {color: black; text-decoration: none; align-items:center; justify-content: center; margin:auto; font-size: 20px}
+
+#secciones ul li:hover {
+  background:orange}
+
+
+  ----------------------------------------------------------------------------*/
+
+  
+header{position:absolute;top:0;left:0;right:0;text-align:center;z-index:10;animation-name:dropHeader;animation-iteration-count:1;animation-timing-function:ease;animation-duration:0.75s}
+
+header ul{display:inline-block;background: black;text-align:center;padding:10px;margin:0;border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+
+header li{display:inline-block}header a{display:block;color: orange;padding:10px}
+
+header a:hover{color: rgb(2, 51, 2);text-decoration:none;background:#eee;border-radius:4px}
+
+header a:focus{color:#3498db;text-decoration:none}
+
+header.active{display:block}
+
+header.sticky{position:fixed;z-index:999}
+
+#menu.active{display:block}
+
+#mobile-menu-open{display:none;cursor:pointer;position:fixed;right:15px;top:10px;color:#3498db;font-size:1.5em;z-index:20;padding:0 7px;border-radius:4px;background:#fff}
+
+#mobile-menu-close{display:none;text-align:right;width:100%;background:#fff;font-size:1.5em;padding-right:15px;padding-top:10px;cursor:pointer;color:#3498db}
+
+#mobile-menu-close span{font-size:0.5em;text-transform:uppercase}
+
+#mobile-menu-close i{vertical-align:middle}
+
+.shadow{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}
+
+.shadow-large{box-shadow:0 3px 6px rgba(0,0,0,0.08),0 3px 6px rgba(0,0,0,0.15)}
+/*
+@media only screen and (max-width: 750px){#experience-timeline:before,#experience-timeline:after{left:23px}.vtimeline-date{width:auto;text-align:left;position:relative;margin-bottom:15px;display:block;margin-left:70px}.vtimeline-icon{margin-left:0}.vtimeline-content{margin-left:70px}}
+
+@media only screen and (max-width: 992px){#lead{height:auto;min-height:auto;max-height:auto;padding:100px 15px}#lead-content{position:relative;transform:none;left:auto;top:auto}#lead-content h1{font-size:3em}#lead-content h2{font-size:1.75em}#about{text-align:center}#about p{text-align:left}}
+
+@media only screen and (max-width: 768px){header{position:fixed;display:none;z-index:999;animation:none;bottom:0;height:100%}#mobile-menu-open,#mobile-menu-close{display:block}#menu{height:100%;overflow-y:auto;box-shadow:none;border-radius:0;width:100%}#menu li{display:block;margin-bottom:10px}#lead-content h1{font-size:2em}#lead-content h2{font-size:1.3em}#lead-content a{padding:10px 20px}#lead-down{display:none}.education-block h3,.education-block span{float:none}.project-image{display:none}.project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}footer{text-align:center}.social{text-align:center}}
+
+@media only screen and (max-width: 480px){#lead-content h1{font-size:1.5em}#lead-content h2{font-size:1em}#lead-content a{font-size:0.9em;padding:5px 10px}}*/
